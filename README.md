@@ -3,7 +3,7 @@
 
 ```
 module "ss" {
-    source                  = "farrukh/aks/ss"
+    source                  = "tutac/terraform-azure-ss"
     resource_group_name     = "example-resources"
     resource_group_location = "West Europe"
     ss_name                 = "example-ss"
